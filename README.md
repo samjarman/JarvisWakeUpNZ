@@ -10,3 +10,14 @@ Call it like `$ python wakeup.py christchurch`
 Then add it as a cron job or whatever you like :)
 
 I'm [@samjarman](http://www.twitter.com/samjarman) too.
+
+#### Set up
+
+Make sure you have audio configured on your RPi. 
+
+`$ chmod u+x speech.sh`
+`$ sudo apt-get install mpg123`
+
+#### References
+http://danfountain.com/2013/03/raspberry-pi-text-to-speech/
+http://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)

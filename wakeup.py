@@ -29,6 +29,6 @@ if __name__ == '__main__':
 										resp['days'][0]['max'])
 	#print(resp['locationIPS'])
 	#print(resp['forecast'])
-	print(s)
-	os.system('say %s' % (s))
+	print('./speech.sh "%s"' % (s))
+	os.system('./speech.sh "%s"' % (s))
 
